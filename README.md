@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Instruções para Desenvolvimento
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto requer a recriação de uma página mobile baseada em um design fornecido no Figma. A pessoa responsável por este teste deve utilizar o arquivo fornecido no projeto para desenvolver a página conforme as especificações do design.
 
-## Available Scripts
+### Figma Design
+O design a ser seguido está disponível no Figma no seguinte [link](https://www.figma.com/file/lAAailSNvI7cZQAllaYOgh/Untitled?type=design&node-id=0%3A1&mode=design&t=MXWGaECxZGzFZF24-1)
 
-In the project directory, you can run:
 
-### `npm start`
+### Ferramentas Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* React: O projeto deve ser desenvolvido utilizando React.
+* SCSS: Utilize SCSS para estilização dos componentes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Estrutura do Projeto
 
-### `npm test`
+O projeto está estruturado da seguinte forma:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* `src/`: Diretório contendo o código fonte do projeto.
+* `public/`: Diretório contendo arquivos estáticos como imagens. 
+* `README.md`: Este arquivo contendo as instruções para desenvolvimento.
 
-### `npm run build`
+## Como Começar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Extraia este projeto para um diretório local.
+* Navegue até o diretório do projeto.
+* Instale as dependências do projeto utilizando `npm install`.
+* Execute o projeto localmente com `npm start`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Desenvolvimento
+* Utilize o arquivo fornecido no projeto como referência para criar a página mobile.
+* Siga fielmente as especificações de design presentes no Figma.
+* Utilize SCSS para estilização dos componentes.
+* Mantenha o código limpo e bem organizado, seguindo as melhores práticas de desenvolvimento.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Slider
 
-### `npm run eject`
+Para o componente slider, você poderá utilizar a biblioteca que quiser. Sugerimos a utilização da biblioteca [react-slick](https://react-slick.neostack.com/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Para a composição do card de produtos no slider, deverá ser utilizado as informações retornantes da função `getProducts` presente no arquivo `/src/utils.js`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
