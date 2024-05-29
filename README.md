@@ -38,11 +38,4 @@ Para o componente slider, você poderá utilizar a biblioteca que quiser. Sugeri
 
 Para a composição do card de produtos no slider, deverá ser utilizado as informações retornantes da função `getProducts` presente no arquivo `/src/utils.js`.
 
-### Geolocalização por CEP
-
-Para criar o componente de geolocalização onde o usuário insere o CEP para inputra seu estado, pode ser utilizada a API do viaCep [link](https://documenter.getpostman.com/view/8961871/SVn3svAh)
-
-### Minicart
-
-O produto adicionado ao minicart deve vir da interação com o botão de adicionar o carrinho no card de produto, ou seja precisa ser consumido do arquivo `/src/utils.js`.
 
