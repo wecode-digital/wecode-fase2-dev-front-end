@@ -1,9 +1,9 @@
 # Instruções para Desenvolvimento
 
-Este projeto requer a recriação de uma página mobile baseada em um design fornecido no Figma. A pessoa responsável por este teste deve utilizar o arquivo fornecido no projeto para desenvolver a página conforme as especificações do design.
+Este projeto requer a recriação de uma página mobile e desktop baseada em um design fornecido no Figma. A pessoa responsável por este teste deve utilizar o arquivo fornecido no projeto para desenvolver a página conforme as especificações do design.
 
 ### Figma Design
-O design a ser seguido está disponível no Figma no seguinte [link](https://www.figma.com/file/lAAailSNvI7cZQAllaYOgh/Untitled?type=design&node-id=0%3A1&mode=design&t=MXWGaECxZGzFZF24-1)
+O design a ser seguido está disponível no Figma no seguinte [link](https://www.figma.com/design/EjPsqBt4o5yktKvks0f072/[Wecode]-Vaga-Desenvolvedor-J%C3%BAnior?node-id=3006-1347&t=0G4hjFDhmnEiECiD-0)
 
 
 ### Ferramentas Utilizadas
@@ -37,4 +37,12 @@ O projeto está estruturado da seguinte forma:
 Para o componente slider, você poderá utilizar a biblioteca que quiser. Sugerimos a utilização da biblioteca [react-slick](https://react-slick.neostack.com/).
 
 Para a composição do card de produtos no slider, deverá ser utilizado as informações retornantes da função `getProducts` presente no arquivo `/src/utils.js`.
+
+### Geolocalização por CEP
+
+Para criar o componente de geolocalização onde o usuário insere o CEP para inputra seu estado, pode ser utilizada a API do viaCep [link](https://documenter.getpostman.com/view/8961871/SVn3svAh)
+
+### Minicart
+
+O produto adicionado ao minicart deve vir da interação com o botão de adicionar o carrinho no card de produto, ou seja precisa ser consumido do arquivo `/src/utils.js`.
 
