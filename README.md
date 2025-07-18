@@ -10,7 +10,7 @@ Este projeto requer a recriação de uma página mobile baseada em um design for
 * O projeto deve ser entregue em até 7 dias após o recebimento do link [link](https://forms.gle/mGWLKX6WiHi9691o9)
 
 ### Figma Design
-O design a ser seguido está disponível no Figma no seguinte [link](https://www.figma.com/design/EjPsqBt4o5yktKvks0f072/[Wecode]-Vaga-Desenvolvedor-J%C3%BAnior?node-id=3006-1347&t=0G4hjFDhmnEiECiD-0)
+O design a ser seguido está disponível no Figma no seguinte [link]([https://www.figma.com/design/EjPsqBt4o5yktKvks0f072/[Wecode]-Vaga-Desenvolvedor-J%C3%BAnior?node-id=3006-1347&t=0G4hjFDhmnEiECiD-0](https://www.figma.com/design/lAAailSNvI7cZQAllaYOgh/-Wecode--Vaga-Est%C3%A1gio-Desenvolvedor?t=MmZTkOhuVDXoGp30-0))
 
 
 ### Ferramentas Utilizadas
